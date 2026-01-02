@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "type": "commonjs",
   "main": "index.js",
+  "homepage": ".",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "dotenv": "^16.0"
+    "dotenv": "^16.0",
+    "express": "^5.2.1"
   }
 }
