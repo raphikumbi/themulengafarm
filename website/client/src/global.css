@@ -1,0 +1,23 @@
+:root {
+    --color-page-background: #eff5ff;
+
+    --color-footer: #2a2a2a;
+    --color-header: #ffffff;
+
+    --color-text-white: #fff;
+    --color-text-black: #000;
+
+    --color-link-hover: #00ff00;
+    --color-elements-white: #fff;
+
+    /* Optional: other design tokens */
+    --font-family: 'Arial', sans-serif;
+    --footer-padding: 20px;
+}
+
+html, body, #root {
+    height: 100%;          /* Full viewport height */
+    margin: 0;             /* Remove default body margin */
+    padding: 0;            /* Remove default padding */
+    overflow-x: hidden;    /* Prevent horizontal scroll */
+}
