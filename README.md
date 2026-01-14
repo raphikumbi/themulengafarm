@@ -4,6 +4,7 @@
 @Created by RaphiKumbi
 
 ### Build App
+npm install express
 npm run build
 
 ### Start App
