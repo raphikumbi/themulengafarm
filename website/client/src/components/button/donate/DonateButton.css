@@ -1,0 +1,46 @@
+.donate-button {
+    position: relative;
+    background: var(--color-element-neutral);
+
+    width: 125px;
+    height: 40px;
+
+    border: 2px solid var(--color-element-neutral);
+    border-radius: 5px;
+
+    color: var(--color-page-background);
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    line-height: 1;
+
+    transition: var(--button-transition);
+    cursor: pointer;
+}
+
+.donate-button-icon {
+    transform: translateX(-8px) translateY(2px);
+}
+
+.donate-button-text {
+    margin-left: 2px;
+}
+
+.donate-button:hover {
+    transform: scale(1.05);
+
+    .donate-button-icon, .donate-button-text {
+        transition-duration: 0.25s;
+        color: var(--color-white);
+    }
+}
+
+.donate-button:active {
+    transform: scale(0.95);
+
+    .donate-button-icon, .donate-button-text {
+        transition-duration: 0.25s;
+        color: var(--color-white);
+    }
+}

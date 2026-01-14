@@ -1,0 +1,26 @@
+.image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--button-transition);
+}
+
+.image-button:hover {
+    transform: scale(1.05);
+}
+
+.image-button:active {
+    transform: scale(0.95);
+}
+
+.image-button .image {
+    display: block;
+    width: 55px;
+    height: auto;
+}

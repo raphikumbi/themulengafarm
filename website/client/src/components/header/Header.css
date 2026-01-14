@@ -1,37 +1,85 @@
-.header {
-    height: 188px; /* ~5cm */
+.HeaderContent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.7cm;
+
+    background-color: var(--color-header);
+    border-bottom: 1px solid var(--color-separation-line);
+
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;       /* Cover the whole header */
-    background-position: center;  /* Center the image */
-    background-repeat: no-repeat;
-    color: var(--color-elements-white);
-    font-family: var(--font-family), sans-serif;
-    font-size: 2rem;
-    position: relative;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 0;
+
 }
 
-/* Optional overlay to make text readable */
-.header::before {
-    content: "";
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.4); /* Semi-transparent overlay */
-    z-index: 0;
+.header-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
 }
 
-.header h1 {
-    position: relative; /* Keep text above overlay */
-    z-index: 1;
-    text-align: center;
+.header-right {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
-    .header {
-        height: 150px;
-        font-size: 1.5rem;
+    .desktop-only {
+        display: none;
     }
+}
+
+@media (min-width: 767px) {
+    .phone-only {
+        display: none;
+    }
+}
+
+/* Title */
+.title h1 {
+    font-family: var(--font-family), sans-serif;
+    color: var(--color-text-header);
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+
+.title.phone-only h1 {
+    font-size: 1rem;
+    padding-top: 12px;
+}
+
+@media (max-width: 370px) {
+    .title.phone-only h1 {
+        transform: translate(-15px, 0px) scale(0.9);
+    }
+}
+
+/* Donate Button */
+.donate-button {
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+@media (max-width: 370px) {
+    .donate-button {
+        transform: translate(-15px, 0px) scale(0.9);
+    }
+}
+
+/* Button Logo */
+.image-button.logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    transition: transform 0.1s ease;
 }

@@ -1,0 +1,115 @@
+.video-info-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    transition: var(--button-transition);
+}
+
+.video-info-container {
+    max-width: 1000px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.video-button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-button-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* improves contrast */
+    transition: var(--button-transition);
+}
+
+.video-button-title h2 {
+    color: var(--color-text-white);
+    font-size: 38px;
+    font-weight: 500;
+    text-align: left;
+    transform: translate(15px, 100px);
+}
+
+.video-play-button {
+    background-color: #ffffffdd;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    transform: translate(15px, 87px);
+
+    transition: var(--button-transition);
+}
+
+.video-play-text {
+    color: var(--color-page-background);
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.io-play-icon {
+    color: var(--color-page-background);
+    font-size: 1.4rem;
+    padding-top: 4px;
+}
+
+.video-button:hover {
+    .video-play-button {
+        background-color: var(--color-element-neutral);
+    }
+    .video-button-overlay {
+        background: rgba(0, 0, 0, 0.4); /* improves contrast */
+    }
+}
+
+.video-button:active {
+    transform: scale(0.99);
+}
+
+/* Modal background */
+.video-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Modal content */
+.video-modal-content {
+    width: 90%;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    background: black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Iframe */
+.video-modal-content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

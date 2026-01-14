@@ -1,18 +1,36 @@
-:root {
-    --color-page-background: #eff5ff;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
+:root {
+    --color-page-background: #232323;
     --color-footer: #2a2a2a;
-    --color-header: #ffffff;
+    --color-header: #2a2a2a;
+
+    --color-separation-line: #4f4f4f;
+
+    --color-text-header: #ffffff;
+    --color-text-footer: #ffffff;
+    --color-text-home: #ffffff;
+
+    --color-light-grey: #D9DDE2;
+
+
 
     --color-text-white: #fff;
-    --color-text-black: #000;
+    --color-black: #000;
 
-    --color-link-hover: #00ff00;
-    --color-elements-white: #fff;
 
-    /* Optional: other design tokens */
-    --font-family: 'Arial', sans-serif;
-    --footer-padding: 20px;
+    --color-element-neutral: #20ac29;
+    --color-element-hover: #40bc69;
+    --color-element-pressed: #20ac59;
+    --color-white: #fff;
+
+    --color-logo-brown-bright: #A88158;
+    --color-logo-brown-dark: #4D362C;
+
+    --font-family: 'Nunito', sans-serif;
+
+
+    --button-transition: transform 0.15s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
 html, body, #root {

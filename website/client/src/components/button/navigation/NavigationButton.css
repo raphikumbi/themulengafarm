@@ -1,0 +1,36 @@
+.NavigationButton {
+    position: relative;
+    background: rgba(100, 100, 100, 0);
+    border: 0;
+
+    border-radius: 12px;
+
+    color: var(--color-black);
+    font-size: clamp(0.9rem, 1.5vw, 1.5rem);
+    font-family: var(--font-family), sans-serif;
+    font-weight: 600;
+    line-height: 1;
+
+    padding-top: 0.9rem;
+    padding-bottom: 0.7rem;
+
+    min-width: clamp(90px, 10vw, 140px);
+    height: clamp(36px, 4vw, 52px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    transition: var(--button-transition);
+
+    cursor: pointer;
+}
+
+.NavigationButton:hover {
+    transform: scale(1.05);
+}
+
+.NavigationButton:active {
+    transform: scale(1.01);
+}

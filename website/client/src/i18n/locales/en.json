@@ -1,8 +1,25 @@
 {
-  "welcome": "Welcome to The Mulenga Farm",
-  "title": "The Mulenga Farm",
-  "change_language": "Change language",
-  "home": "Home",
-  "page1": "Page 1",
-  "page2": "Page 2"
+  "global": {
+    "title": "The Mulenga Farm",
+    "donate": "DONATE"
+  },
+
+  "video-container": {
+    "play": "Play"
+  },
+
+  "video-latest-update": {
+    "title": "Latest-Update"
+  },
+
+  "our-mission": {
+    "title": "Our Mission",
+    "p1": "We combat climate change and aspire to see our communities flourishing by enhancing food security and economic opportunities.",
+    "p2": "Our mission is not just about cultivating crops and trees; it's about cultivating hope. We aim to equip our communities with professional agricultural skills and godly principles. Together, we will not only combat deforestation but also cultivate a brighter, more sustainable future for generations to come.",
+    "p3": "Through the love and help of God, we embark on a journey of purpose, determined to establish a commercial farm with an orphanage, taking care of those who have been forgotten. This is the journey of TheMulengaFarm. Will you join us?",
+    "p4": "TheMulengaFarm ORG is a registered swissbased NGO, funding and supporting the works of the MulengaFarm in Zambia, Ndola.",
+    "logo-text-1": "THE MULENGA PROJECT",
+    "logo-text-2": "FARMING GOD'S WAY"
+  }
+
 }

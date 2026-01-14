@@ -1,22 +1,19 @@
-import React from 'react';
 import "./Footer.css";
-import { FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaYoutube, FaInstagram, FaEnvelope} from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer show">
             <h3>The Mulenga Farm</h3>
-            <p>
-                <a href="mailto:themulengafarm@proton.me">
-                    themulengafarm@proton.me
-                </a>
-            </p>
             <div className="social-buttons">
-                <a href="https://www.youtube.com/@TheMulengaProject-2024" target="_blank" rel="noopener noreferrer">
-                    <FaYoutube />
+                <a href="mailto:themulengafarm@proton.me" target="_blank" rel="noopener noreferrer">
+                    <FaEnvelope />
                 </a>
                 <a href="https://www.instagram.com/themulengafarm/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
+                </a>
+                <a href="https://www.youtube.com/@TheMulengaProject-2024" target="_blank" rel="noopener noreferrer">
+                    <FaYoutube />
                 </a>
             </div>
             <p className="copyright">
