@@ -84,6 +84,20 @@
     transform: scale(0.99);
 }
 
+@media (max-width: 500px) {
+    .video-info-container {
+        height: 200px;
+    }
+
+    .video-button-title h2 {
+        transform: translate(15px, 60px);
+    }
+
+    .video-play-button {
+        transform: translate(15px, 39px);
+    }
+}
+
 /* Modal background */
 .video-modal {
     position: fixed;
