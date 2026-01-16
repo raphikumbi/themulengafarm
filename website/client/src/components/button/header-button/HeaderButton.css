@@ -1,0 +1,25 @@
+.header-button {
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    transition-duration: var(--transition-duration);
+}
+
+.header-button button {
+    border: none;
+    background: none;
+    padding: 10px;
+    color: var(--color-text-white);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: var(--color-header-button-hover);
+}

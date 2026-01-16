@@ -15,7 +15,7 @@
     letter-spacing: 0.02em;
     line-height: 1;
 
-    transition: var(--button-transition);
+    transition-duration: var(--transition-duration);
     cursor: pointer;
 }
 
@@ -31,7 +31,7 @@
     transform: scale(1.05);
 
     .donate-button-icon, .donate-button-text {
-        transition-duration: 0.25s;
+        transition-duration: var(--transition-duration);
         color: var(--color-white);
     }
 }
@@ -40,7 +40,7 @@
     transform: scale(0.95);
 
     .donate-button-icon, .donate-button-text {
-        transition-duration: 0.25s;
+        transition-duration: var(--transition-duration);
         color: var(--color-white);
     }
 }

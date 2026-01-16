@@ -20,6 +20,10 @@ export default function VideoButton({ thumbnail, url, title }) {
         };
     }, [open]);
 
+    const autoplayUrl = open
+        ? `${url}?autoplay=1&mute=1`
+        : "";
+
     // Close on ESC
     useEffect(() => {
         const handleKeyDown = (e) => {
@@ -72,7 +76,7 @@ export default function VideoButton({ thumbnail, url, title }) {
                         onClick={(e) => e.stopPropagation()}
                     >
                         <iframe
-                            src={url}
+                            src={autoplayUrl}
                             title={title}
                             frameBorder="0"
                             allow="autoplay; fullscreen"

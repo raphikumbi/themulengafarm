@@ -1,0 +1,108 @@
+/* Page Banner */
+.page-banner {
+    padding: 0;
+    height: 400px;
+}
+
+.image-banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center 49%;
+
+}
+
+@media (max-width: 700px) {
+    .page-banner, .image-banner {
+        height: 200px;
+    }
+    .image-banner {
+        width: 100%;
+        object-position: center 25%;
+    }
+}
+
+/* Sub Header */
+.secondary-header-container {
+    width: 100%;
+    height: 1.7cm;
+
+    background-color: var(--color-header);
+    border-bottom: 1px solid var(--color-separation-line);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary-header-container-inner {
+    width: var(--content-width);
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .secondary-header-container-inner {
+        width: 100vw;
+    }
+}
+
+.secondary-header-left, .secondary-header-right  {
+    width: calc(var(--content-width) / 2);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.secondary-header-left {
+    justify-content: left;
+}
+
+.secondary-header-right {
+    justify-content: right;
+}
+
+.secondary-header-button-spacer {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary-header-icon-spacer {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Align Favicons */
+.secondary-header-icon-spacer .instagram {
+    color: var(--color-white);
+    font-size: 23px;
+    padding-top: 5px;
+    transition-duration: var(--transition-duration);
+}
+
+.secondary-header-icon-spacer .youtube {
+    color: var(--color-white);
+    font-size: 25px;
+    padding-top: 5px;
+    transition-duration: var(--transition-duration);
+}
+
+.secondary-header-icon-spacer .mail {
+    color: var(--color-white);
+    font-size: 23px;
+    padding-top: 5px;
+    transition-duration: var(--transition-duration);
+}
+
+.secondary-header-icon-spacer :hover {
+    .instagram, .youtube, .mail {
+        transform: scale(125%);
+    }
+}

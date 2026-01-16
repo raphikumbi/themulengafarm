@@ -4,12 +4,18 @@
     "donate": "DONATE"
   },
 
+  "subheader": {
+    "home": "Home",
+    "pictures": "Pictures",
+    "videos": "Videos"
+  },
+
   "video-container": {
     "play": "Play"
   },
 
   "video-latest-update": {
-    "title": "Latest-Update"
+    "title": "Latest Update"
   },
 
   "our-mission": {

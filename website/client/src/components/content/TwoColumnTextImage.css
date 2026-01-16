@@ -1,7 +1,6 @@
 .two-column-section {
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 
 .section-container {
@@ -45,7 +44,7 @@
     flex-direction: column;
     align-items: center;            /* center image horizontally */
     text-align: center;             /* text under image centered */
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .section-image-container {

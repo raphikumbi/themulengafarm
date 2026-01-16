@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.css";
 
-import DonateButton from "../button/donate/DonateButton.jsx";
-import ImageButton from "../button/logo/ImageButton.jsx";
+import DonateButton from "../../components/button/donate-button/DonateButton.jsx";
+import ImageButton from "../../components/button/image-button/ImageButton.jsx";
 import logo from "../../assets/logo.png";
 import {useTranslation} from "react-i18next";
 

@@ -5,7 +5,7 @@
     --color-footer: #2a2a2a;
     --color-header: #2a2a2a;
 
-    --color-separation-line: #4f4f4f;
+    --color-separation-line: #404040;
 
     --color-text-header: #ffffff;
     --color-text-footer: #ffffff;
@@ -13,24 +13,25 @@
 
     --color-light-grey: #D9DDE2;
 
-
-
     --color-text-white: #fff;
     --color-black: #000;
-
 
     --color-element-neutral: #20ac29;
     --color-element-hover: #40bc69;
     --color-element-pressed: #20ac59;
-    --color-white: #fff;
+    --color-white: #ffffff;
 
     --color-logo-brown-bright: #A88158;
     --color-logo-brown-dark: #4D362C;
 
+    --color-header-button-hover: #3a3a3a;
+
     --font-family: 'Nunito', sans-serif;
 
+    --content-width: 1000px;
 
     --button-transition: transform 0.15s ease, background 0.2s ease, box-shadow 0.2s ease;
+    --transition-duration: 0.4s;
 }
 
 html, body, #root {
