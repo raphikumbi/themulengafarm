@@ -11,15 +11,20 @@
 }
 
 .header-button button {
+    background-color: var(--color-header);
     border: none;
-    background: none;
     padding: 10px;
     color: var(--color-text-white);
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    transition-duration: var(--transition-duration);
 }
 
 .header-button:hover {
     background-color: var(--color-header-button-hover);
+    button {
+        background-color: var(--color-header-button-hover);
+        border-radius: 5px;
+    }
 }
