@@ -1,3 +1,4 @@
+import React from 'react';
 import "./ImageButton.css";
 
 export default function ImageButton({ image, url, alt = "", className = "" }) {

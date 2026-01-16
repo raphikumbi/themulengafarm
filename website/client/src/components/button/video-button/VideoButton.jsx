@@ -1,3 +1,4 @@
+import React from 'react';
 import "./VideoButton.css";
 import { IoPlayOutline } from "react-icons/io5";
 import {useTranslation} from "react-i18next";

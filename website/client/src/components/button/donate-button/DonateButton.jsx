@@ -1,3 +1,4 @@
+import React from 'react';
 import { useTranslation } from "react-i18next";
 import "./DonateButton.css";
 import { FaRegHeart } from "react-icons/fa";

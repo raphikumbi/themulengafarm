@@ -1,6 +1,6 @@
+import React from "react";
 import "./SubHeader.css";
 import banner from "../../assets/photos/site/banner.jpg";
-import React from "react";
 import HeaderButton from "../../components/button/header-button/HeaderButton.jsx";
 import {FaEnvelope, FaInstagram, FaYoutube} from "react-icons/fa";
 import {useTranslation} from "react-i18next";
