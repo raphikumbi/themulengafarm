@@ -37,6 +37,10 @@ export default function HomePage() {
                                 imageTextLines={ourMissionLogoText}
             />
 
+            <div className="coming-soon">
+                <p>Coming Soon...</p>
+            </div>
+
         </div>
     );
 }
