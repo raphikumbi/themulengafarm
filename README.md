@@ -43,3 +43,11 @@ npm install --save-dev @types/react-i18next
 
 npm run build
 ```
+
+
+## Update site on Infomaniak
+Gehe zu SSH Konsole, cd in ordner client und mach:
+```
+git pull
+npm run build
+```
