@@ -44,11 +44,12 @@
 .title h1 {
     font-family: var(--font-family), sans-serif;
     color: var(--color-text-header);
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-size: 1.7rem;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
     white-space: nowrap;
+    transform: translateY(-1px);
 }
 
 .title.phone-only h1 {

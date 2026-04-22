@@ -40,7 +40,7 @@ export default function SubHeader() {
                             </a>
                         </div>
                         <div className="secondary-header-icon-spacer">
-                            <a href="mailto:themulengafarm@proton.me" target="_blank" rel="noopener noreferrer">
+                            <a href="mailto:lionel.kumbartzki@themulengafarm.org" target="_blank" rel="noopener noreferrer">
                                 <FaEnvelope className="mail" />
                             </a>
                         </div>
