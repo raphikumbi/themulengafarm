@@ -7,10 +7,10 @@ export default function PicturePage() {
     const imgPath = (name) => `/photos/photos2025/${name}`;
 
     const verticalPairs2025 = [
-            ["Mulenga2025_3.JPG", "Mulenga2025_2.JPG"],
-            ["Mulenga2025_4.JPG", "Mulenga2025_5.JPG"],
-            ["Mulenga2025_6.JPG", "Mulenga2025_7.JPG"],
-            ["Mulenga2025_8.JPG", "Mulenga2025_9.JPG"],
+            ["Mulenga2025_3.JPG",  "Mulenga2025_2.JPG"],
+            ["Mulenga2025_4.JPG",  "Mulenga2025_5.JPG"],
+            ["Mulenga2025_6.JPG",  "Mulenga2025_7.JPG"],
+            ["Mulenga2025_8.JPG",  "Mulenga2025_9.JPG"],
             ["Mulenga2025_10.JPG", "Mulenga2025_12.JPG"],
             ["Mulenga2025_13.JPG", "Mulenga2025_14.JPG"],
             ["Mulenga2025_15.JPG", "Mulenga2025_16.JPG"],
@@ -47,14 +47,14 @@ export default function PicturePage() {
     ];
 
     const horizontalSingles2025 = [
-        "Mulenga2025_1.jpg",
-        "Mulenga2025_11.jpg",
-        "Mulenga2025_23.jpg",
-        "Mulenga2025_25.jpg",
-        "Mulenga2025_36.jpg",
-        "Mulenga2025_39.jpg",
-        "Mulenga2025_41.jpg",
-        "Mulenga2025_46.jpg",
+        "Mulenga2025_1.JPG",
+        "Mulenga2025_11.JPG",
+        "Mulenga2025_23.JPG",
+        "Mulenga2025_25.JPG",
+        "Mulenga2025_36.JPG",
+        "Mulenga2025_39.JPG",
+        "Mulenga2025_41.JPG",
+        "Mulenga2025_46.JPG",
         "Mulenga2025_84.JPG",
         "Mulenga2025_85.JPG",
         "Mulenga2025_88.JPG",
