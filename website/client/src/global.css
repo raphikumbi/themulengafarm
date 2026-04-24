@@ -29,6 +29,7 @@
     --font-family: 'Nunito', sans-serif;
 
     --content-width: 1000px;
+    --max-media-width: 500px;
 
     --button-transition: transform 0.15s ease, background 0.2s ease, box-shadow 0.2s ease;
     --transition-duration: 0.4s;
