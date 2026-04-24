@@ -47,7 +47,7 @@ export default function PicturePage() {
     ];
 
     const horizontalSingles2025 = [
-        "Mulenga2025_1.JPG",
+        "Mulenga2025_1.jpg",
         "Mulenga2025_11.JPG",
         "Mulenga2025_23.JPG",
         "Mulenga2025_25.JPG",
