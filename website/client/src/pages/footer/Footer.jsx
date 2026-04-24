@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="footer show">
             <h3>The Mulenga Farm</h3>
             <div className="social-buttons">
-                <a href="mailto:themulengafarm@proton.me" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:lionel.kumbartzki@themulengafarm.org" target="_blank" rel="noopener noreferrer">
                     <FaEnvelope />
                 </a>
                 <a href="https://www.instagram.com/themulengafarm/" target="_blank" rel="noopener noreferrer">
