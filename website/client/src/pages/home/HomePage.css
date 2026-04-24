@@ -8,3 +8,10 @@
 .coming-soon > p {
     color: var(--color-text-white);
 }
+
+.qr {
+    width: 250px;
+    height: 250px;
+    image-rendering: pixelated;
+    filter: invert(1);
+}
