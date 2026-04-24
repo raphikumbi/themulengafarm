@@ -3,7 +3,7 @@ import "./Header.css";
 
 import DonateButton from "../../components/button/donate-button/DonateButton.jsx";
 import ImageButton from "../../components/button/image-button/ImageButton.jsx";
-import logo from "../../assets/logo.png";
+import logo from "../../../public/photos/logo.png";
 import {useTranslation} from "react-i18next";
 
 export default function Header() {

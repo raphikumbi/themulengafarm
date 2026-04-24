@@ -6,8 +6,8 @@ import {useTranslation} from "react-i18next";
 import TwoColumnTextImage from "../../components/content/TwoColumnTextImage.jsx";
 import VideoButton from "../../components/button/video-button/VideoButton.jsx";
 
-import logo from '../../assets/logo.png';
-import thumbnailLatestUpdate from '../../assets/photos/site/video_1_thumbnail.png';
+import logo from '../../../public/photos/logo.png';
+import thumbnailLatestUpdate from '../../../public/photos/site/video_1_thumbnail.png';
 
 
 export default function HomePage() {
