@@ -4,7 +4,7 @@ import Spacer from "../../components/util/HorizontalSpacer.jsx"
 import "./PicturePage.css";
 
 export default function PicturePage() {
-    const imgPath = (name) => `/src/assets/photos/pictures2025/${name}`;
+    const imgPath = (name) => `../../assets/photos/pictures2025/${name}`;
 
     const verticalPairs2025 = [
             ["Mulenga2025_3.JPG", "Mulenga2025_2.JPG"],

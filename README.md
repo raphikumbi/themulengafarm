@@ -49,5 +49,6 @@ npm run build
 Gehe zu SSH Konsole, cd in ordner client und mach:
 ```
 git pull
+
 npm run build
 ```
