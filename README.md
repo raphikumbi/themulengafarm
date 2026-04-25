@@ -48,6 +48,8 @@ npm run build
 ## Update site on Infomaniak
 Gehe zu SSH Konsole, cd in ordner client und mach:
 ```
+cd sites/themulengafarm/website/client
+
 git pull
 
 npm run build
