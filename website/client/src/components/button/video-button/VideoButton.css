@@ -31,7 +31,7 @@
 .video-button-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5); /* improves contrast */
+    background: rgba(0, 0, 0, 0.3); /* improves contrast */
     transition: var(--button-transition);
 }
 
@@ -76,7 +76,7 @@
         background-color: var(--color-element-neutral);
     }
     .video-button-overlay {
-        background: rgba(0, 0, 0, 0.4); /* improves contrast */
+        background: rgba(0, 0, 0, 0.2); /* improves contrast */
     }
 }
 

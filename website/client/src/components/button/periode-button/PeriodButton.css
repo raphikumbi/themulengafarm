@@ -1,0 +1,63 @@
+.period-button {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 16 / 10;
+    border-radius: 13px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* background stack */
+.period-button_bg-wrapper {
+    position: absolute;
+    inset: 0;
+}
+
+.period-button_bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.75);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.period-button_bg.active {
+    opacity: 1;
+}
+
+/* overlay */
+.period-button_overlay {
+    position: absolute;
+    inset: 0;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease;
+}
+
+/* text */
+.period-button_text {
+    font-size: clamp(34px, 10vw, 75px);
+    font-weight: 500;
+    line-height: 1.2;
+    max-width: 80%;
+}
+
+.period-button_see-more {
+    position: absolute;
+    bottom: 15px;
+    left: 12px;
+    font-size: 15px;
+    opacity: 0.85;
+}
+
+/* hover */
+.period-button:hover .period-button_overlay {
+    background: rgba(0, 0, 0, 0);
+}

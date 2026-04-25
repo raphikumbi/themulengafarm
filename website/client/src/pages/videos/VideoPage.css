@@ -1,10 +1,27 @@
-.coming-soon {
+.page-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-content: center;
     align-items: center;
-    padding: 5rem;
 }
 
-.coming-soon > p {
-    color: var(--color-text-white);
+.content-width {
+    width: 100%;
+    max-width: var(--content-width);
+}
+
+.video-container {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.video-container-background {
+    background-color: var(--color-footer);
+    border-radius: 13px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    padding: 0 25px 25px 25px;
+    color: var(--color-white);
 }

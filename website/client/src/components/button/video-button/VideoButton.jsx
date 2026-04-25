@@ -57,12 +57,12 @@ export default function VideoButton({ thumbnail, url, title }) {
                             </div>
 
                             <div className="video-play-button">
-                <span className="video-play-text">
-                  {t("video-container.play")}
-                </span>
+                                <span className="video-play-text">
+                                    {t("video-container.play")}
+                                </span>
                                 <span className="video-play-icon">
-                  <IoPlayOutline className="io-play-icon" />
-                </span>
+                                    <IoPlayOutline className="io-play-icon" />
+                                </span>
                             </div>
                         </div>
                     </button>
